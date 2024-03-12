@@ -1,14 +1,5 @@
-body {
-    font-family: 'Rock Salt';
-}
 
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
-
-root {
+:root {
     --primary-color: #FFF1C2;
     --secondary-color: #26424C;
     --accent-color1: #6DA58F;
