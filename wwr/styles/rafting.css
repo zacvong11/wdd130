@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+:root {
+    --primary-color: #FFF1C2;
+    --secondary-color: #26424C;
+    --accent1-color: #6DA58F;
+    --accent2-color: #E56F38;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color: #FFF1C2;
+    --nav-link-color: #26424C;
+    --nav-hover-link-color: #6DA58F;
+    --nav-hover-background-color: #E56F38;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
+.river-guide img {
+    float: left;
+
+}
