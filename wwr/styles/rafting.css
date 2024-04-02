@@ -15,10 +15,19 @@
     --nav-hover-background-color: #E56F38;
 }
 
+body {
+    font-family: var(--paragraph-font);
+    background-color: #f8f8f8; 
+    margin: 0; 
+    padding: 0;
+}
+
 .header {
     display: grid;
-    grid-template-columns: auto 1fr;
+    justify-content: space-between; 
     align-items: center;
+    background-color: var(--nav-background-color); 
+    padding: 10px 20px; 
 }
 
 .nav {
@@ -26,12 +35,67 @@
     gap: 20px;
 }
 
-.Adventures {
-    display: flex;
-    justify-content: space-between;
+.company-info {
+    margin-bottom: 20px; 
 }
 
-.Adventures figure {
+
+.about {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; 
+}
+
+.employee-profiles figure {
+    text-align: center;
+}
+
+.contact-form {
+    background-color: white; 
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.contact-form label {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="checkbox"] {
+    width: 10%; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+.contact-form input[type="checkbox"] {
+    width: auto; 
+}
+
+.contact-form input[type="submit"] {
+    background-color: var(--accent2-color); 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #c65311; 
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white; 
+    padding: 20px;
     text-align: center;
 }
 
