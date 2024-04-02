@@ -104,3 +104,7 @@ footer {
     justify-content: flex-end;
     gap: 10px;
 }
+
+.submit-button {
+    padding: 10px 20px;
+}
