@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 :root {
     --primary-color: #FFF1C2;
     --secondary-color: #26424C;
@@ -14,22 +15,28 @@
     --nav-hover-background-color: #E56F38;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
 }
 
-h1 {
-    position: absolute;
+.nav {
+    display: flex;
+    gap: 20px;
 }
 
-article {
-    position: absolute;
+.Adventures {
+    display: flex;
+    justify-content: space-between;
 }
 
-.river-guide img {
-    float: left;
+.Adventures figure {
+    text-align: center;
+}
 
+.Sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
