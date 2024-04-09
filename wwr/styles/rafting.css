@@ -17,16 +17,19 @@
 
 body {
     font-family: var(--paragraph-font);
-    background-color: #f8f8f8; 
+    background-color: var(--primary-color);
     margin: 0; 
     padding: 0;
+    
 }
+
+
 
 .header {
     display: grid;
     justify-content: space-between; 
     align-items: center;
-    background-color: var(--nav-background-color); 
+    background-color: var(--accent1-color);
     padding: 10px 20px; 
 }
 
@@ -107,4 +110,387 @@ footer {
 
 .submit-button {
     padding: 10px 20px;
+}
+
+.grid-layout {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.grid-item {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.grid-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+   
+}
+
+.grid-item p {
+    font-size: 1rem;
+}
+
+
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.call-to-action {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.call-to-action .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.call-to-action .button:hover {
+    background-color: #0056b3;
+}
+
+.trip-descriptions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.trip {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trip img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.trip h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.Sociallinks {
+    margin-top: 20px;
+}
+
+.Sociallinks a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+.trips {
+    padding: 20px;
+}
+
+
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.Hero {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+article img {
+    margin-right: 20px;
+}
+
+
+.History {
+    margin-bottom: 40px;
+}
+
+.History h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.Adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.Adventures h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Adventures figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Adventures img {
+    border-radius: 8px;
+}
+
+.Adventures figcaption {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.Sociallinks {
+    margin-top: 20px;
+}
+
+.Sociallinks a {
+    margin: 0 10px;
+    color: #fff;
+}
+
+
+.nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.company-info {
+    margin-bottom: 40px;
+}
+
+.company-info h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.company-info iframe {
+    margin-top: 20px;
+}
+
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+
+.employee-profiles {
+    margin-bottom: 40px;
+}
+
+.employee-profiles h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.employee-profiles figure {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.employee-profiles figcaption {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+.contact-form {
+    margin-bottom: 40px;
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.Sociallinks {
+    margin-top: 20px;
+}
+
+.Sociallinks a {
+    margin: 0 10px;
+    color: #fff;
 }
